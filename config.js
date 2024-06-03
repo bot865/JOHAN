@@ -10,23 +10,23 @@ import moment from 'moment-timezone';
 global.botnumber = ""
 
 global.owner = [
-  ['212717457920', 'bobiza', true],
+  ['201115618853', '♯ЅᗩFᏒOT꙯🧸💜', true],
 
-  ['212717457920','bobiza', true],
-  ['212717457920'],
-  ['212717457920']
+  ['201115618853','♯ЅᗩFᏒOT꙯🧸💜', true],
+  ['201115618853'],
+  ['01115618853']
 ];
 
-global.suittag = ['212717457920'];
-global.prems = ['212717457920'];
+global.suittag = ['01115618853'];
+global.prems = ['201115618853'];
 
-global.packname = 'bobiza bot';
-global.author = 'bobiza';
-global.wm = 'bobiza';
-global.titulowm = 'bobiza';
-global.titulowm2 = `bobiza`
-global.igfg = 'bobiza';
-global.wait = '*|🏃| loading...*\n*نحاول تلبية طلبكم لا تستعجلوا* ♥\ninstagram.com/noureddine_ouafy';
+global.packname = '♯ЅᗩFᏒOT꙯ BOT';
+global.author = '♯ЅᗩFᏒOT꙯';
+global.wm = '♯ЅᗩFᏒOT꙯';
+global.titulowm = 'سفروت بوت🧸💜';
+global.titulowm2 = `♯ЅᗩFᏒOT꙯`
+global.igfg = 'بوت سفروت🧸💜';
+global.wait = '*|🏃| loading...*\n*نحاول تنفيز طلبكم لا تستعجلوا* 🧸💜';
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
 global.imagen2 = fs.readFileSync('./src/nuevobot.jpg');
 global.imagen3 = fs.readFileSync('./src/Pre Bot Publi.png');
@@ -46,14 +46,14 @@ global.año = d.toLocaleDateString('en', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
 global.wm2 = `${dia} ${fecha}\nBOBIZA`;
-global.gt = 'BOBIZA';
+global.gt = '♯ЅᗩFᏒOT꙯';
 global.mysticbot = 'The BOBIZA';
-global.md = 'https://instagram.com/noureddine_ouafy';
-global.mysticbot = 'https://instagram.com/noureddine_ouafy';
-global.waitt = '*[ ⏳ ] LOADING...*';
-global.waittt = '*[ ⏳ ] LOADING...*';
-global.waitttt = '*[ ⏳ ] LOADING...*';
-global.nomorown = '212605784394';
+global.md = 'https:';
+global.mysticbot = '@1.safrot';
+global.waitt = '*[ ⏳ ] جاري التحميل...*';
+global.waittt = '*[ ⏳ ] جاري التحميل...*';
+global.waitttt = '*[ ⏳ ] جاري التحميل...*';
+global.nomorown = '201115618853';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
 global.cmenub = '┊✦ ';
