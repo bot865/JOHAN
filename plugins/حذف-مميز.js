@@ -1,0 +1,22 @@
+//import db from '../lib/database.js'
+
+let handler = async (m, { conn, usedPrefix, command, text }) => {
+    let who
+    if (m.isGroup) who = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text ? text.replace(/[^0-9]/g, '') + '@s.whatsapp.net' : false
+    else who = text ? text.replace(/[^0-9]/g, '') + '@s.whatsapp.net' : m.chat
+    let user = global.db.data.users[who]
+    if (!who) return m.reply(`⎗ منشن الشخص\n\n⎔ *مثال* :\n${usedPrefix + command} @منشن`)
+    if (!global.prems.includes(who.split`@`[0])) throw '✳️ The user is not Premium'
+    let index = global.prems.findIndex(v => (v.replace(/[^0-9]/g, '') + '@s.whatsapp.net') === (who.replace(/[^0-9]/g, '') + '@s.whatsapp.net'))
+    global.prems.splice(index, 1)
+    conn.reply(m.chat, `✅ تم حذف البريميام \n@${who.split('@')[0]} لم يعد لديك بريميام`, m, { mentions: [who] })
+
+}
+handler.help = ['✓ ◡̈⃝ ✓│✓ ◡̈⃝ ✓│حذف_بريميام💫🫣']
+handler.tags = ['owner']
+handler.command = ['delprem', 'حذف_بريميام'] 
+
+handler.group = true
+handler.rowner = true
+
+export default handler
